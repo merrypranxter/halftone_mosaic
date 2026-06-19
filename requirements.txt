@@ -1,0 +1,10 @@
+# Core dependencies for the halftone_mosaic Python tools and notebooks.
+numpy>=1.23
+Pillow>=9.0
+
+# Optional but recommended:
+#   scipy      - faster void-and-cluster blue noise (falls back to an FFT blur
+#                if absent) and edge maps in the Voronoi notebook.
+#   matplotlib - required only for the notebooks (visualization).
+scipy>=1.9
+matplotlib>=3.5
