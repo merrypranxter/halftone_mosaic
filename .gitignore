@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch output (the curated gallery/ is committed; ad-hoc renders aren't)
+out/
+scratch/
+*.tmp.png
+
+# Notebook execution artifacts
+*.out.ipynb
